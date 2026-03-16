@@ -11,8 +11,8 @@ key = "YOoTNd4Ff5SA3mvHPWoCUjG99tZfHN82SWMZRQQNqsQ="
 
 [ui]
 
-logo = "res/logo.png"
-icon = "res/icon.ico"
+logo = "res/logo256.png"
+icon = "res/icon256.ico"
 
 [update]
 
