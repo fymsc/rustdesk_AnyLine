@@ -1,10 +1,10 @@
 [package]
-name = "远程助手"
+name = "anyline"
 version = "1.4.6"
 authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "RustDesk Remote Desktop"
+description = "AnyLine Remote Desktop"
 default-run = "rustdesk"
 rust-version = "1.75"
 
