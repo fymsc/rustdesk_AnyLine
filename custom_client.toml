@@ -1,0 +1,19 @@
+[app]
+
+name = "远程通"
+short_name = "远程通"
+company = "远程通"
+
+[rendezvous]
+
+server = "yc.niani.top"
+key = "YOoTNd4Ff5SA3mvHPWoCUjG99tZfHN82SWMZRQQNqsQ="
+
+[ui]
+
+logo = "res/logo.png"
+icon = "res/icon.ico"
+
+[update]
+
+disable = true
