@@ -11,7 +11,7 @@ jobs:
 
     steps:
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Install Rust
       uses: actions-rs/toolchain@v1
@@ -22,7 +22,7 @@ jobs:
       run: cargo build --release
 
     - name: Upload
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: windows-client
         path: target/release/*.exe
@@ -44,7 +44,7 @@ jobs:
     - name: Build Linux
       run: cargo build --release
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: linux-client
         path: target/release/*
@@ -68,7 +68,7 @@ jobs:
         cd flutter
         flutter build apk --release
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: android-client
         path: flutter/build/app/outputs/flutter-apk/app-release.apk
